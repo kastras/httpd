@@ -1,0 +1,13 @@
+lista_paquetes_httpd:
+  - httpd
+  - php
+  - php-mysqlnd
+  - php-gd
+  - php-zip
+  - php-posix
+  - php-session
+
+lista_paquetes_apache:
+  - apache2
+  - php
+  - libapache2-mod-php

@@ -1,0 +1,5 @@
+- name: restart_httpd_fedora
+  service: name=httpd state=restarted
+
+- name: restart_httpd_ubuntu
+  service: name=httpd state=restarted

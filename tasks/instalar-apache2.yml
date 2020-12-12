@@ -1,0 +1,6 @@
+#version ubuntu
+- name: Instalamos paquetes
+  apt: name={{ lista_paquetes_apache }} state=latest
+
+- name: iniciamos y habilitamos el servicio apache2
+  service: name=apache2 state=started enabled=true
